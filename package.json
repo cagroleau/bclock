@@ -1,0 +1,15 @@
+{
+  "name": "bclock",
+  "module": "index.ts",
+  "scripts": {
+    "tw-compile": "tailwindcss -i ./input.css -o ./output.css --watch"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "tailwindcss": "^3.4.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "type": "module"
+}
